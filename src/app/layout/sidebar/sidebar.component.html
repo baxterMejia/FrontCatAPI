@@ -1,0 +1,17 @@
+<div
+  [@slideInOut]
+  *ngIf="open"
+  class="overflow-hidden bg-background text-foreground"
+  style="width: 200px;"
+>
+  <ul class="space-y-2 p-2">
+    <li>
+      <a
+        routerLink="/"
+        class="flex items-center gap-2 p-2 rounded hover:bg-secondary"
+      >
+        <lucide-icon name="Home" class="w-5 h-5"></lucide-icon>
+      </a>
+    </li>
+  </ul>
+</div>
