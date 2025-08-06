@@ -3,6 +3,10 @@
 
 Aplicación web desarrollada con Angular 17 que permite explorar razas de gatos y gestionar autenticación de usuarios. Incluye vistas protegidas, consumo de APIs, filtros dinámicos, diseño responsive y arquitectura limpia.
 
+Comandos de depuración:
+npm i
+npm start
+
 ---
 
 🚀 Tecnologías usadas
@@ -60,3 +64,6 @@ src/
 🔐 Seguridad
 - Guard para proteger rutas privadas.
 - Manejo de token en localStorage.
+
+---
+
